@@ -1,0 +1,54 @@
+body{
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.watch-container{
+    background-color: hsl(180, 100%, 90%);
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 4rem;
+    text-decoration: underline;
+}
+
+#watch{
+    font-size: 5rem;
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.507);
+}
+
+.controls{
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.button{
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsl(208, 100%, 97%);
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    transition: background-color 0.5s ease;
+}
+
+.button:hover{
+    background-color: hsl(208, 100%, 77%);
+}
+
+.button::after{
+    background-color: hsl(208, 100%, 87%);
+}
+
